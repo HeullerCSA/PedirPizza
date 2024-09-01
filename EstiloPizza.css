@@ -1,0 +1,8 @@
+body{
+    background-image: url(imagens/pizza3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.site{color: black;}
+.Titulo{color:black; text-align: left; font-style: italic }; 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <title>pedir pizza</title>
+
+    <link rel="stylesheet" href="EstiloPizza.css">
+
+</head>
+
+<body>
+
+    <h1 class="Titulo"> Pedir pizza</h1>
+
+    <form method="post" action="teste.jsp" class="site">
+ 
+      <!--nome do cliente e email--> 
+      Nome: <input type="text" name="nome"> <br>
+      Email: <input typer="texte" name="email"> <br>
+     <!--tamanho da pizza-->
+     Tamanho:
+     <input type="radio" name="tamanho" value="g"> Grande
+     <input type="radio" name="tamanho" value="m"checked> Medio 
+     <input type="radio" name="tamanho" value="p"> Pequeno
+     <br>
+     <!--sabor da pizza-->
+     Sabor: <select name="sabor">
+         <option>Calabresa</option>
+         <option>Frango</option>
+         <option>Portuguesa</option>
+     </select>
+     <br>
+     <!--adicionais da pizza-->
+     Adicionais:
+     <input type="checkbox" name="borda" value="sim"> Borda
+     <input type="checkbox" name="queijo" value="sim"> Queijo extra 
+     <br>
+     <!--data da entrega-->
+     Data da entrega: <input type="date" name="dataEntrega">
+     <br>
+     <!--comentarios do cliente-->
+     Comentário: <br>
+     <textarea name="mensagem" rows="10" cols="30"></textarea>
+     <br>
+     <!--confirmar o pedido-->
+     <input type="submit">
+ 
+     
+    </form>
+ 
+    
+</body>
+</html>
